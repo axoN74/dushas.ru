@@ -1,0 +1,257 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+* {margin:0;padding:0;}
+body {background: url(images/bg1.jpg);font-family:'Arial'; min-width: 1280px;}
+
+A:link {text-decoration: none;} 
+header {position:relative; z-index: 1;width: 100%;height:100px;background-color:#146DA9; box-shadow: 0 0 10px;min-width:1100px;}
+.logo  {position:relative; z-index: 3;width:1100px; margin:auto;top:5px;left:20px;}
+.name  {position:relative;padding-left:10px;bottom:20px;font-size:36px;font-family:'Arial';font-weight:bold;color:#F9F5F5;}
+.slabovid {cursor: pointer; border-radius:8px; z-index: 99; float: right; position: absolute; margin-left:980px; margin-top:-10px;width:100px;height:100px;background: url('images/Eye.png') no-repeat;}
+.slabovid:hover {box-shadow: 0 0 10px #000000;border-radius:8px;}
+
+.image {position:relative;}
+.foto  {position: absolute;  margin:10px;top:-30px; box-shadow: 0 0 10px;border-radius:8px;}
+ h5 {position: absolute;left:50px;color:#F9F5F5; font-size:14px;font-family:'Arial'; line-height: 2;bottom:40px;}
+ h5 A{color: white;}
+.maket {position:relative; z-index: 1; top:-15px; width:1100px; min-height:1030px; margin:auto; padding-top:30px; background-color:#FFFFFF; box-shadow: 0 0 10px;padding-bottom:1px;}
+.img1 {border-radius:8px;box-shadow: 0 0 10px;}
+
+sidebar1  {position:relative;border-radius:8px; width:200px; float:right;  right:10px; margin-top:-3px;  z-index: 4;}
+sidebar1 ul {list-style: none;}
+sidebar1 ul li {background-color: #146DA9;text-align:left; margin: 10px 0px;border-radius:8px;box-shadow: 0 0 5px}
+sidebar1 ul li:hover {background-color: #fff;;color: #146DA9;}
+sidebar1 ul li a {color:#FFFFFF;text-decoration:none;font-size:19px;display:block;padding:5px 10px ;border-radius:8px;}
+sidebar1 ul li a:hover {color:#146DA9;}
+
+sidebar2  {box-shadow: 0 0 10px;border-radius:8px; width:200px; background-color:#146DA9; z-index: 4;position:absolute;margin-left:890px;margin-top:415px;}
+sidebar2 ul {list-style: none;}
+sidebar2 ul li {margin: 6px;padding:0;}
+.img {border-radius:8px;}
+.img:hover {box-shadow: 0 0 10px;color:white;}
+
+
+
+menu {position:relative;z-index: 3;top:-5px;background-color:#146DA9;height:50px;width:1080px;margin:auto;border-radius:8px;box-shadow: 0 0 10px;}
+menu ul {list-style:none;}
+menu ul li {float:left; text-align:center;font-weight: bold;}
+menu ul li:hover { background-color: #fff;;color: #146DA9;border-radius:8px;}
+menu ul li a {color:#FFFFFF;text-decoration:none;font-size:25px; line-height:50px;padding:0px 20.45px;display:block;}
+menu ul li a:hover {color:#146DA9;}
+
+#content {box-shadow: 0 0 10px;position:relative; z-index: 5; margin:10px; width:840px; border-radius:8px;  padding:15px;  top:-5px;}
+#content h1 {font-size:32px;font-family:'Georgia';font-weight:bold;margin-bottom:20px;text-align:center;width:840px;}
+#content h2 {font-size:20px;font-weight:bold;margin-top:15px;width:840px;text-align:center;margin-bottom:15px;}
+#content p {font-family:'Arial';text-align:justify;font-size:18px; margin: 10px 0;}
+#content p1 {text-align: right;font-size:18px;}
+p2 {padding-left: 50px;font-size:20px;}
+
+.scrollup{width:100px;height:100px;border-radius:14px;box-shadow: 0 0 10px #000000;position:fixed;bottom:100px;margin-left:940px;display:none;text-indent:-9999px;background: url('images/up.png') no-repeat;}
+
+footer {position:relative; z-index: 0;width: 100%;height:100px;background-color:#146DA9; box-shadow: 0 0 10px;min-width:1100px;margin-top:-30px;}
+.foot {position:relative;z-index: 3;width: 1100px;font-family:'Arial';font-weight:bold;color:#F9F5F5;top:45px;margin:auto;}
+
+.blok {position:relative; z-index: 5;width:240px;float:right;bottom:10px;margin-right:20px;}
+.social a { margin: 0px 10px 10px 0;text-align: center;width: 38px;height: 34px; float: left; background: #fff; box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);border-radius: 6px; padding: 6px; color: #000;}
+.instagram a:hover {background: #E57A52; color: #fff;}
+.vk a:hover {background: #5d84ae; color: #fff;}
+.telegram a:hover {background: #249bd7; color: #fff;}
+.whatsapp a:hover {background: #50b154; color: #fff;}
+
+
+.feedback-input {
+    outline:none;
+    color: #000;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    text-align:center;
+    background-color: #fff;
+    padding: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 2px solid #146DA9;
+    border-radius:8px;
+}
+
+textarea {width: 50%; height: 243px; resize:vertical; border-radius:8px;}
+.button-submit:hover { border-radius:8px; box-shadow: 0 0 10px; background-color: #fff; color: #146DA9;}
+
+.button-submit { border-radius:8px;
+    margin-left: 200px;
+    width: 50%;
+    border: 0px solid transparent;
+    cursor: pointer;
+    background-color: #146DA9;
+    color: #fff;
+    font-size: 24px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+#fon {
+  background-color: #000; /* Чёрный фон */
+  height: 100%; /* Высота максимальна */
+  left: 0; /* Нулевой отступ слева */
+  opacity: 0.80; /* Степень прозрачности */
+  position: fixed; /* Фиксированное положение */
+  top: 0; /* Нулевой отступ сверху */
+  width: 100%; /* Ширина максимальна */
+  z-index: 500; /* Заведомо быть НАД другими элементами */
+  display:none;
+}
+
+#reg { border-radius:8px;
+    background-color: #146DA9;
+    text-align:center;
+    margin-top:-20px;
+    margin-left:300px;
+    position:fixed;
+    z-index:501;
+    color: #fff;
+    width: 400px;
+    height: 400px;
+    display:none;
+    font-size: 24px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    transition: all 0.3s;
+
+}
+.input{
+        outline:none;
+    color: #000;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 22px;
+    text-align:center;
+    background-color: #fff;
+    padding: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:350px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 2px solid #146DA9;
+    border-radius:8px;
+}
+
+.closeBut {
+     position:fixed;
+    z-index:501;
+    cursor: pointer;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    background-color:#fff ;
+    color: #146DA9;
+    font-size: 16px;
+    border: 0px solid transparent;
+    border-radius:6px;
+    margin-top: -15px;
+    margin-left: 170px;
+}
+.submit{
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    color: #146DA9;
+    font-size: 24px;
+    border: 0px solid transparent;
+    border-radius:8px;
+    margin-top: 20px;
+    width:250px;
+}
+
+.butt { position:absolute ;
+    z-index:500;
+    border-radius:8px;
+    margin-left: 405px;
+    margin-top: -15px;
+    width: 120px;
+    border: 0px solid transparent;
+    cursor: pointer;
+    background-color: #fff;
+    color: #146DA9;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.butt:hover { border-radius:8px; box-shadow: 0 0 10px; background-color: #146DA9; color: #fff;}
+
+//////////////
+.smile-container {}
+
+.slider {
+    z-index:50;
+	width: 690px;
+	height: 300px;
+    border-radius:8px;
+    top: -20px;
+	margin-left: 400px;
+	position: relative;
+	overflow: hidden;
+	/*display: inline-block;*/
+} 
+
+.sli {
+	width: 690px;
+	height: 300px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	animation-name: slid;
+	animation-duration: 32s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	/*animation-direction: alternate;*/
+}
+.sli1 { 
+	background: url(images/s1.jpg);
+	animation-delay: 24s;
+}
+.sli2 { 
+	background: url(images/s2.jpg);
+	animation-delay: 16s;
+}
+.sli3 { 
+	background: url(images/s3.jpg);
+	animation-delay: 8s;
+}
+.sli4 { 
+	background: url(images/s5.jpg);
+	animation-delay: 0s;
+}
+
+@keyframes slid {
+	from {
+		top: 0;
+		left: 0;
+	}
+	12.5% {
+		transform: translate(0px, 0px);
+	}
+	25% {
+		transform: translate(-690px, 0);
+	}
+	36% {
+		transform: translate(-690px, 300px);
+	}
+	37% {
+		transform: translate(690px, 300px);
+	}
+	87.5% {
+		transform: translate(690px, 0);
+	}
+	to {
+		transform: (0px, 0px);
+	}
+}
+
